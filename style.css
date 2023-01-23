@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {                                      
+    background: lightgrey;
+}
+
+.wrapper{
+      min-height: 100vh;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+}
+
+.cardbox{
+        position: relative;
+        background-color:  white;
+        width : 300px;
+        border-radius: 1rem;
+}
+
+.Qrimag{
+    width: 100%;                      /* if height in % does'nt work then take height in px */                      
+    border-radius: 1rem;
+    height: 260px;
+}
+
+.Qr_code{
+    margin: 10px 10px;
+}
+
+.cardtext{
+    margin: 10px 20px;
+    align-items: center;
+}
+
+.heading{
+      font-size: 22px;
+      text-align: center;
+}
+
+.para{
+     font-size: 15px;
+     text-align: center;
+     font-family: 'Outfit', sans-serif;
+     color: lightslategray;
+     margin-top: 10px;
+}
+
+.author{
+     text-align: center;
+     margin: 10px 0px;
+}
